@@ -1,0 +1,31 @@
+
+
+lib :
+    - core :
+        - global_component :
+            - button
+            - form
+        - utils :
+            - route_utils
+            - sharedpreferences
+        - services
+        - constants :
+            - string
+            - images
+            - color
+        - config
+            - main_app
+    - data :
+        - auth :
+            - datasource
+            - modelresponses
+            - modelrequests
+    - features : 
+        - auth :
+            - controller :
+                - login_controller
+                - register_controller
+            - login_screen
+            - register_screen
+            - widgets :
+                - widget_1

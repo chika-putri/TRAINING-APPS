@@ -1,0 +1,40 @@
+lib :
+
+ - core :
+    - config :
+        - main_app
+	- utils :
+        - route utils
+	- constants :
+        - string
+        - images
+        - color
+	- global_component :
+        - button
+
+ - features :
+	main :
+        - controller :
+            - nav_controller
+        - main_menu_screen
+        - widgets :
+
+
+	store : 
+        - widgets :
+            - card_store_plan
+        - store_screen
+        - controller :
+            - store_controller
+	welcome :
+        - welcome_screen
+        - controller :
+            - welcome_controller
+
+data :
+    - store :
+        - modelresponses :
+            - plan_model_responses
+        - dummy :
+            - plan_model_dummy
+
